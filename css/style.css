@@ -1,0 +1,334 @@
+@font-face
+{
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face
+{
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face
+{
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.top_menu
+{
+    text-align: center;
+}
+
+.menu_item
+{
+    list-style: none;
+	display: inline-block;
+}
+
+.menu_link
+{
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #282b30;
+    display: inline-block;
+}
+
+.top_block_wrapper
+{
+    background: url('../images/top_block.jpg') center center;
+    background-size: cover;
+    padding: 175px 0;
+    text-align: center;
+}
+
+.top_block_title_wrapper
+{
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    display: inline-block;
+}
+
+.top_block_title
+{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.content_wrapper
+{
+    padding: 60px 20px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content_title
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #282b30;
+    margin: 0 0 40px;
+}
+
+.text
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 500;
+    margin: 0 0 25px;
+    color: #282b30;
+    max-width: 560px;
+}
+
+.content_list
+{
+    margin: 0 0 40px;
+    padding: 0 0 0 20px;
+}
+
+.content_list_item
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 500;
+    margin: 0 0 10px;
+    color: #282b30;
+    max-width: 380px;
+}
+
+.order_button
+{
+    background: #0fa8ea;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 700;
+    border-radius: 26px;
+    padding: 0 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button_light
+{
+    background: none;
+    color: #0fa8ea;
+	border: 1px solid #0fa8ea;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 700;
+    border-radius: 26px;
+    padding: 0 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.order_title
+{
+    max-width: 340px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #2b2b2b;
+    margin: 0 0 26px;
+}
+
+.order_text_wrapper
+{
+    display: inline-block;
+    width: 430px;
+    margin-right: 110px;
+	vertical-align: middle;
+}
+
+.order_picture_wrapper
+{
+    display: inline-block;
+	vertical-align: middle;
+}
+
+.bottom_menu
+{
+    background: #e8e6eb;
+    text-align: center;
+}
+
+.subscribe_wrapper {
+    background-color: #f4f5f7;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.subscribe_title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #282b30;
+    margin-bottom: 20px;
+}
+
+.subscribe_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    max-width: 480px;
+    margin: 0 auto 30px;
+}
+
+.subscribe_form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.subscribe_input {
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    outline: none;
+    color: #282b30;
+    background-color: #ffffff;
+    cursor: pointer; 
+}
+
+.subscribe_input::placeholder {
+    color: #999999;
+}
+
+.select_wrapper {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.subscribe_select {
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #282b30;
+    background-color: #ffffff;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 18px;
+}
+
+.checkbox_group {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.custom_checkbox {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #282b30;
+    cursor: pointer;
+    user-select: none;
+}
+
+.custom_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: all 0.2s ease;
+}
+
+.custom_checkbox:hover .checkmark {
+    border-color: #0fa8ea;
+}
+
+.custom_checkbox input:checked ~ .checkmark {
+    background-color: #0fa8ea;
+    border-color: #0fa8ea;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom_checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.custom_checkbox .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.subscribe_button {
+    width: 100%;
+    background-color: #0fa8ea;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 24px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
